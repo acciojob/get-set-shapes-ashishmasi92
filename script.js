@@ -23,6 +23,16 @@ class Square extends Rectangle {
 	}
 }
 
+let rect = new Rectangle(5,10)
+console.log(rect.width)
+console.log(rect.height)
+console.log(rect.getArea())
+
+const square = new Square(7)
+console.log(this.width)
+console.log(this.height)
+console.log(this.getArea())
+console.log(this.getperimeter())
 
 
 // Do not change the code below this line
